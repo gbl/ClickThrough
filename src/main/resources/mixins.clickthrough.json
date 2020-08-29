@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "de.guntram.mcmod.clickthrough.mixins",
+    "refmap": "clickthrough-refmap.json",
+    "minVersion": "0.6",
+    "client": [
+        "ItemUseMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
