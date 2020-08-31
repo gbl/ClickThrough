@@ -4,6 +4,8 @@ import de.guntram.mcmod.fabrictools.ConfigChangedEvent;
 import de.guntram.mcmod.fabrictools.Configuration;
 import de.guntram.mcmod.fabrictools.ModConfigurationHandler;
 import java.io.File;
+import java.util.regex.Pattern;
+import java.util.regex.PatternSyntaxException;
 
 public class ConfigurationHandler implements ModConfigurationHandler {
 
@@ -12,10 +14,26 @@ public class ConfigurationHandler implements ModConfigurationHandler {
     private Configuration config;
     private String configFileName;
     
+    private boolean sneakToDyeSigns;
+    
+    private Pattern compiledPatterns[];
+    private String patterns[];
+    private static final String[] defaultPatterns = {
+        "\\[buy\\]|\\[sell\\]|\\[shop\\]",
+        "",
+        "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s",
+        ""
+    };
+    
     public static ConfigurationHandler getInstance() {
         if (instance==null)
             instance=new ConfigurationHandler();
         return instance;
+    }
+    
+    private ConfigurationHandler() {
+        compiledPatterns = new Pattern[4];
+        patterns = new String[4];
     }
 
     public void load(final File configFile) {
@@ -35,7 +53,20 @@ public class ConfigurationHandler implements ModConfigurationHandler {
     
     private void loadConfig() {
         
-//        hideWhenReiShown=config.getBoolean("easiercrafting.config.hidewithrei", Configuration.CATEGORY_CLIENT, true, "easiercrafting.config.tt.hidewithrei");
+        sneakToDyeSigns=config.getBoolean("clickthrough.config.sneaktodye", Configuration.CATEGORY_CLIENT, true, "clickthrough.config.tt.sneaktodye");
+        for (int i=0; i<4; i++) {
+            patterns[i]=config.getString("clickthrough.config.ignore."+(i+1), Configuration.CATEGORY_CLIENT, defaultPatterns[i], "clickthrough.config.tt.ignore."+(i+1));
+            try {
+                if (patterns[i].isEmpty()) {
+                    compiledPatterns[i] = null;
+                } else {
+                    compiledPatterns[i] = Pattern.compile(patterns[i], Pattern.CASE_INSENSITIVE);
+                }
+            } catch (PatternSyntaxException ex) {
+                System.out.println("Pattern syntax exception with Pattern '"+patterns[i]+"' "+ex.getMessage());
+                compiledPatterns[i] = null;
+            }
+        }
         
         if (config.hasChanged())
             config.save();
@@ -48,5 +79,13 @@ public class ConfigurationHandler implements ModConfigurationHandler {
 
     public static String getConfigFileName() {
         return getInstance().configFileName;
+    }
+    
+    public static boolean getSneakToDyeSigns() {
+        return getInstance().sneakToDyeSigns;
+    }
+    
+    public static Pattern getIgnorePattern(int row) {
+        return getInstance().compiledPatterns[row];
     }
 }

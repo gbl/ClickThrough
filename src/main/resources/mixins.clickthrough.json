@@ -4,7 +4,7 @@
     "refmap": "clickthrough-refmap.json",
     "minVersion": "0.6",
     "client": [
-        "ItemUseMixin"
+        "ItemUseMixin", "SneakingCancelsInteractionMixin"
     ],
     "injectors": {
         "defaultRequire": 1
