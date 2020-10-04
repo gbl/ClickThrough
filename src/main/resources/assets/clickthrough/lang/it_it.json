@@ -1,0 +1,12 @@
+{
+    "clickthrough.config.sneaktodye": "Accovacciati per colorare i cartelli",
+    "clickthrough.config.tt.sneaktodye": "ON: Clicca attraverso, accovacciati per colorare i cartelli\nOFF: Clicca per colorare i cartelli, accovacciati per non colorarli",
+    "clickthrough.config.ignore.1": "Ignora i cartelli se la riga 1 contiene: ",
+    "clickthrough.config.ignore.2": "Ignora i cartelli se la riga 2 contiene: ",
+    "clickthrough.config.ignore.3": "Ignora i cartelli se la riga 3 contiene: ",
+    "clickthrough.config.ignore.4": "Ignora i cartelli se la riga 4 contiene: ",
+    "clickthrough.config.tt.ignore.1": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
+    "clickthrough.config.tt.ignore.2": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
+    "clickthrough.config.tt.ignore.3": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
+    "clickthrough.config.tt.ignore.4": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops"
+}
