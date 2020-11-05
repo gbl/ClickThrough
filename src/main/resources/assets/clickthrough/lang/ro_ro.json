@@ -1,12 +1,12 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops"
+    "clickthrough.config.sneaktodye": "Apasă SHIFT pentru a colora semnul",
+    "clickthrough.config.tt.sneaktodye": "ON: Click-ul trece prin semn, pe SHIFT îl colorezi\nOFF: Click-ul colorează semnul, pe SHIFT nu îl colorezi",
+    "clickthrough.config.ignore.1": "Ignoră semnele dacă rândul 1 se potrivește cu: ",
+    "clickthrough.config.ignore.2": "Ignoră semnele dacă rândul 2 se potrivește cu: ",
+    "clickthrough.config.ignore.3": "Ignoră semnele dacă rândul 3 se potrivește cu: ",
+    "clickthrough.config.ignore.4": "Ignoră semnele dacă rândul 4 se potrivește cu: ",
+    "clickthrough.config.tt.ignore.1": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
+    "clickthrough.config.tt.ignore.2": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
+    "clickthrough.config.tt.ignore.3": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
+    "clickthrough.config.tt.ignore.4": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr"
 }

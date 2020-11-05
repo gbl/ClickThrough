@@ -1,6 +1,21 @@
+buildscript {
+    dependencies {
+        classpath 'de.guntram.mcmod:crowdin-translate:1.2'
+    }
+    repositories {
+        maven {
+            name = 'CrowdinTranslate source'
+            url = "https://minecraft.guntram.de/maven/"
+        }
+    }
+}
+
 plugins {
 	id 'fabric-loom' version '0.4-SNAPSHOT'
 }
+
+apply plugin: 'de.guntram.mcmod.crowdin-translate'
+crowdintranslate.crowdinProjectName = 'clickthrough'
 
 repositories {
 	maven {
@@ -15,7 +30,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 ext.Versions = new Properties()
-Versions.load(file("Versionfiles/mcversion-1.16.2.properties").newReader())
+Versions.load(file("Versionfiles/mcversion-1.16.4.properties").newReader())
 
 archivesBaseName = "clickthrough"
 ext.projectVersion = "0.3"
@@ -41,13 +56,13 @@ processResources {
 dependencies {
     minecraft  "com.mojang:minecraft:${Versions['minecraft_version']}"
     mappings   "net.fabricmc:yarn:${Versions['yarn_mappings']}:v2"
-    modCompile "net.fabricmc:fabric-loader:${Versions['loader_version']}"
-    modCompile "net.fabricmc.fabric-api:fabric-api:${Versions['fabric_version']}"
-    modCompile "io.github.prospector:modmenu:${Versions['modmenu_version']}"
-    modCompile "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
+    modImplementation "net.fabricmc:fabric-loader:${Versions['loader_version']}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${Versions['fabric_version']}"
+    modImplementation "io.github.prospector:modmenu:${Versions['modmenu_version']}"
+    modImplementation "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
     include    "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
-    modImplementation "de.guntram.mcmod:crowdin-translate:1.1"
-    include "de.guntram.mcmod:crowdin-translate:1.1"
+    modImplementation "de.guntram.mcmod:crowdin-translate:1.2"
+    include "de.guntram.mcmod:crowdin-translate:1.2"
 }
 
 // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
@@ -60,4 +75,8 @@ task sourcesJar(type: Jar, dependsOn: classes) {
 
 jar {
 	from "LICENSE"
+}
+
+build {
+        dependsOn downloadTranslations
 }
