@@ -8,11 +8,6 @@ import io.github.prospector.modmenu.api.ModMenuApi;
 public class MMConfigurationHandler implements ModMenuApi
 {
     @Override
-    public String getModId() {
-        return ClickThrough.MODID;
-    }
-
-    @Override
     public ConfigScreenFactory getModConfigScreenFactory() {
         return screen -> new GuiModOptions(screen, ClickThrough.MODNAME, ConfigurationProvider.getHandler(ClickThrough.MODNAME));
     }
