@@ -1,6 +1,6 @@
 buildscript {
     dependencies {
-        classpath 'de.guntram.mcmod:crowdin-translate:1.2'
+        classpath 'de.guntram.mcmod:crowdin-translate:1.3+1.16'
     }
     repositories {
         maven {
@@ -30,7 +30,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 ext.Versions = new Properties()
-Versions.load(file("Versionfiles/mcversion-20w46a.properties").newReader())
+Versions.load(file("Versionfiles/mcversion-20w49a.properties").newReader())
 
 archivesBaseName = "clickthrough"
 ext.projectVersion = "0.3"
@@ -61,8 +61,8 @@ dependencies {
     modImplementation "io.github.prospector:modmenu:${Versions['modmenu_version']}"
     modImplementation "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
     include    "de.guntram.mcmod:GBfabrictools:${Versions['gbfabrictools_version']}"
-    modImplementation "de.guntram.mcmod:crowdin-translate:1.2"
-    include "de.guntram.mcmod:crowdin-translate:1.2"
+    modImplementation "de.guntram.mcmod:crowdin-translate:${Versions['crowdintranslate_version']}"
+    include "de.guntram.mcmod:crowdin-translate:${Versions['crowdintranslate_version']}"
 }
 
 // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task

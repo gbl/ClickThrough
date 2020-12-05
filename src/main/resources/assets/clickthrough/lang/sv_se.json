@@ -1,12 +1,12 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops"
+    "clickthrough.config.sneaktodye": "Smyga till färgämne tecken",
+    "clickthrough.config.tt.sneaktodye": "PÅ: Klicka klickar igenom, smyger färgämnen\nAV: Klickfärgningsskyltar, smygen färgar inte",
+    "clickthrough.config.ignore.1": "Ignorera tecken om rad 1 matchar: ",
+    "clickthrough.config.ignore.2": "Ignorera tecken om rad 2 matchar: ",
+    "clickthrough.config.ignore.3": "Ignorera tecken om rad 3 matchar:",
+    "clickthrough.config.ignore.4": "Ignorera tecken om rad 4 matchar: ",
+    "clickthrough.config.tt.ignore.1": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
+    "clickthrough.config.tt.ignore.2": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
+    "clickthrough.config.tt.ignore.3": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
+    "clickthrough.config.tt.ignore.4": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker"
 }
