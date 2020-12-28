@@ -1,12 +1,12 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops"
+    "clickthrough.config.sneaktodye": "Siltide värvimiseks kükita",
+    "clickthrough.config.tt.sneaktodye": "SEES: klõps klõpsab läbi, hiilimine värvib silte\nVÄLJAS: klõps värvib silte, hiilimine ei värvi",
+    "clickthrough.config.ignore.1": "Ignoreeri silte, kui 1. rida vastab tekstile: ",
+    "clickthrough.config.ignore.2": "Ignoreeri silte, kui 2. rida vastab tekstile: ",
+    "clickthrough.config.ignore.3": "Ignoreeri silte, kui 3. rida vastab tekstile: ",
+    "clickthrough.config.ignore.4": "Ignoreeri silte, kui 4. rida vastab tekstile: ",
+    "clickthrough.config.tt.ignore.1": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
+    "clickthrough.config.tt.ignore.2": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
+    "clickthrough.config.tt.ignore.3": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
+    "clickthrough.config.tt.ignore.4": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada"
 }
