@@ -13,6 +13,8 @@ import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.world.ClientWorld;
 import net.minecraft.entity.decoration.ItemFrameEntity;
 import net.minecraft.item.DyeItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.network.packet.c2s.play.ClientCommandC2SPacket;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -70,7 +72,8 @@ public class ItemUseMixin {
                         }
                     }
 
-                    if (player.getStackInHand(Hand.MAIN_HAND).getItem() instanceof DyeItem) {
+                    Item item = player.getStackInHand(Hand.MAIN_HAND).getItem();
+                    if (item instanceof DyeItem || item == Items.GLOW_INK_SAC) {
                         if (ConfigurationHandler.getSneakToDyeSigns()) {
                             ClickThrough.isDyeOnSign = true;                // prevent sneaking from cancelling the interaction
                             if (player.isSneaking()) {
