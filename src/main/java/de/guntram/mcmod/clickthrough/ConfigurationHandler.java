@@ -19,7 +19,7 @@ public class ConfigurationHandler implements ModConfigurationHandler {
     private Pattern compiledPatterns[];
     private String patterns[];
     private static final String[] defaultPatterns = {
-        "\\[buy\\]|\\[sell\\]|\\[shop\\]",
+        "\\[\\D+\\]",
         "",
         "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s",
         ""
