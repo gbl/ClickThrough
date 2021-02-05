@@ -1,12 +1,12 @@
 {
     "clickthrough.config.sneaktodye": "Tabelaları boyamak için eğil",
     "clickthrough.config.tt.sneaktodye": "AÇIK: Tıklamak arkaya tıklar, eğilmek tabelaları boyar\nKAPALI: Tıklamak tabelaları boyar, eğilmek boyamaz",
-    "clickthrough.config.ignore.1": "Tabelanın birinci satırı şunla eşleşiyorsa atla: ",
-    "clickthrough.config.ignore.2": "Tabelanın ikinci satırı şunla eşleşiyorsa atla: ",
-    "clickthrough.config.ignore.3": "Tabelanın üçüncü satırı şunla eşleşiyorsa atla: ",
-    "clickthrough.config.ignore.4": "Tabelanın dördüncü satırı şunla eşleşiyorsa atla: ",
-    "clickthrough.config.tt.ignore.1": "Sandık mağazaları için şu tabelaların arkasına tıklama",
-    "clickthrough.config.tt.ignore.2": "Sandık mağazaları için şu tabelaların arkasına tıklama",
-    "clickthrough.config.tt.ignore.3": "Sandık mağazaları için şu tabelaların arkasına tıklama",
-    "clickthrough.config.tt.ignore.4": "Sandık mağazaları için şu tabelaların arkasına tıklama"
+    "clickthrough.config.ignore.1": "Tabelanın 1. satırı şunla eşleşiyorsa atla: ",
+    "clickthrough.config.ignore.2": "Tabelanın 2. satırı şunla eşleşiyorsa atla: ",
+    "clickthrough.config.ignore.3": "Tabelanın 3. satırı şunla eşleşiyorsa atla: ",
+    "clickthrough.config.ignore.4": "Tabelanın 4. satırı şunla eşleşiyorsa atla: ",
+    "clickthrough.config.tt.ignore.1": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
+    "clickthrough.config.tt.ignore.2": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
+    "clickthrough.config.tt.ignore.3": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
+    "clickthrough.config.tt.ignore.4": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama"
 }
