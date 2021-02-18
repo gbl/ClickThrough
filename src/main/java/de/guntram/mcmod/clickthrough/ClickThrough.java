@@ -4,7 +4,6 @@ import de.guntram.mcmod.crowdintranslate.CrowdinTranslate;
 import de.guntram.mcmod.fabrictools.ConfigurationProvider;
 import net.fabricmc.api.ClientModInitializer;
 import net.minecraft.block.entity.SignBlockEntity;
-import net.minecraft.text.OrderedText;
 
 public class ClickThrough implements ClientModInitializer 
 {
@@ -24,6 +23,9 @@ public class ClickThrough implements ClientModInitializer
     
     public static String getSignRowText(SignBlockEntity sign, int row) {
         StringBuilder builder =  new StringBuilder();
+        
+        return sign.getTextOnRow(row, true).getString();
+        /* 
         OrderedText result = sign.getTextBeingEditedOnRow(row, (t) -> {
             return t.asOrderedText();
         });
@@ -34,5 +36,6 @@ public class ClickThrough implements ClientModInitializer
         } );
         
         return builder.toString();
+*/
     }    
 }

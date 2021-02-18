@@ -1,6 +1,6 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
+    "clickthrough.config.sneaktodye": "Skradaj się, aby zabarwić tabliczkę",
+    "clickthrough.config.tt.sneaktodye": "Włączony: Kliknięcie powoduje kliknięcie obiektu z tyłu, skradanie powoduje zabarwienie tabliczek\nWyłączony: Kliknięcie powoduje zabarwienie tabliczek, skradanie powoduje kliknięcie obiektu z tyłu",
     "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
     "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
     "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",

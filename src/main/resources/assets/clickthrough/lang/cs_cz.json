@@ -1,6 +1,6 @@
 {
     "clickthrough.config.sneaktodye": "Skrčit se pro obarvení cedulky",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
+    "clickthrough.config.tt.sneaktodye": "Zapnuto: Klik klikne skrz, klik při plížení s barvivem obarví cedule\nVypnuto: Klik s barvivem obarví cedule, při plížení nebarví",
     "clickthrough.config.ignore.1": "Ignorovat, pokud 1. řádek cedulky je: ",
     "clickthrough.config.ignore.2": "Ignorovat, pokud 2. řádek cedulky je: ",
     "clickthrough.config.ignore.3": "Ignorovat, pokud 3. řádek cedulky je: ",
