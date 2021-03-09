@@ -5,8 +5,10 @@
     "clickthrough.config.ignore.2": "Ignoră semnele dacă rândul 2 se potrivește cu: ",
     "clickthrough.config.ignore.3": "Ignoră semnele dacă rândul 3 se potrivește cu: ",
     "clickthrough.config.ignore.4": "Ignoră semnele dacă rândul 4 se potrivește cu: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
     "clickthrough.config.tt.ignore.1": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
     "clickthrough.config.tt.ignore.2": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
     "clickthrough.config.tt.ignore.3": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
-    "clickthrough.config.tt.ignore.4": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr"
+    "clickthrough.config.tt.ignore.4": "Nu da click prin aceste semne pentru beneficiul magazinelor de tip cufăr",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
 }

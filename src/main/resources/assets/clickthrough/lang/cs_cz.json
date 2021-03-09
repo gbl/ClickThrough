@@ -1,12 +1,14 @@
 {
     "clickthrough.config.sneaktodye": "Skrčit se pro obarvení cedulky",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
+    "clickthrough.config.tt.sneaktodye": "Zapnuto: Klik klikne skrz, klik při plížení s barvivem obarví cedule\nVypnuto: Klik s barvivem obarví cedule, při plížení nebarví",
     "clickthrough.config.ignore.1": "Ignorovat, pokud 1. řádek cedulky je: ",
     "clickthrough.config.ignore.2": "Ignorovat, pokud 2. řádek cedulky je: ",
     "clickthrough.config.ignore.3": "Ignorovat, pokud 3. řádek cedulky je: ",
     "clickthrough.config.ignore.4": "Ignorovat, pokud 4. řádek cedulky je: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
     "clickthrough.config.tt.ignore.1": "Neklikat skrz tyto cedulky ve prospěch obchodů v truhle",
     "clickthrough.config.tt.ignore.2": "Neklikat skrz tyto cedulky ve prospěch obchodů v truhle",
     "clickthrough.config.tt.ignore.3": "Neklikat skrz tyto cedulky ve prospěch obchodů v truhle",
-    "clickthrough.config.tt.ignore.4": "Neklikat skrz tyto cedulky ve prospěch obchodů v truhle"
+    "clickthrough.config.tt.ignore.4": "Neklikat skrz tyto cedulky ve prospěch obchodů v truhle",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
 }
