@@ -5,8 +5,10 @@ import de.guntram.mcmod.clickthrough.ConfigurationHandler;
 import java.util.regex.Pattern;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.WallBannerBlock;
 import net.minecraft.block.WallSignBlock;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.block.entity.LockableContainerBlockEntity;
 import net.minecraft.block.entity.SignBlockEntity;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
@@ -42,11 +44,10 @@ public class ItemUseMixin {
             if (crosshairTarget.getType() == HitResult.Type.ENTITY && ((EntityHitResult)crosshairTarget).getEntity() instanceof ItemFrameEntity) {
                 ItemFrameEntity itemFrame = (ItemFrameEntity) ((EntityHitResult)crosshairTarget).getEntity();
                 // copied from AbstractDecorationEntity#canStayAttached
-                BlockPos blockPos = itemFrame.getDecorationBlockPos().offset(itemFrame.getHorizontalFacing().getOpposite());
-                BlockState state = itemFrame.world.getBlockState(blockPos);
+                BlockPos attachedPos = itemFrame.getDecorationBlockPos().offset(itemFrame.getHorizontalFacing().getOpposite());
                 // System.out.println("Item frame attached to "+state.getBlock().getTranslationKey()+" at "+blockPos.toShortString());
-                if (!player.isSneaking()) {
-                    this.crosshairTarget = new BlockHitResult(crosshairTarget.getPos(), itemFrame.getHorizontalFacing(), blockPos, false);
+                if (!player.isSneaking() && isClickableBlockAt(attachedPos)) {
+                    this.crosshairTarget = new BlockHitResult(crosshairTarget.getPos(), itemFrame.getHorizontalFacing(), attachedPos, false);
                 }
             }
             else if (crosshairTarget.getType() == HitResult.Type.BLOCK) {
@@ -56,6 +57,9 @@ public class ItemUseMixin {
                 if (block instanceof WallSignBlock) {
                     WallSignBlock sign = (WallSignBlock) block;
                     BlockPos attachedPos = blockPos.offset(state.get(sign.FACING).getOpposite());
+                    if (!isClickableBlockAt(attachedPos)) {
+                        return;
+                    }
                     BlockEntity entity = world.getBlockEntity(blockPos);
                     if (!(entity instanceof SignBlockEntity)) {
                         return;
@@ -92,9 +96,23 @@ public class ItemUseMixin {
                             this.crosshairTarget = new BlockHitResult(crosshairTarget.getPos(), ((BlockHitResult)crosshairTarget).getSide(), attachedPos, false);
                         }
                     }
+                } else if (block instanceof WallBannerBlock) {
+                    WallBannerBlock banner  = (WallBannerBlock) block;
+                    BlockPos attachedPos = blockPos.offset(state.get(banner.FACING).getOpposite());
+                    if (isClickableBlockAt(attachedPos)) {
+                        this.crosshairTarget = new BlockHitResult(crosshairTarget.getPos(), ((BlockHitResult)crosshairTarget).getSide(), attachedPos, false);
+                    }
                 }
             }
         }
+    }
+    
+    private boolean isClickableBlockAt(BlockPos pos) {
+        if (!ConfigurationHandler.onlyToContainers()) {
+            return true;
+        }
+        BlockEntity entity = world.getBlockEntity(pos);
+        return (entity != null && entity instanceof LockableContainerBlockEntity);
     }
     
     @Inject(method="doItemUse", at=@At("RETURN"))

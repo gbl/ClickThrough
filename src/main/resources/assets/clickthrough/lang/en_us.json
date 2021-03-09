@@ -6,9 +6,11 @@
     "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
     "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
     "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
 
     "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
     "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
     "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops"
+    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
 }
