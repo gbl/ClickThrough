@@ -5,8 +5,10 @@
     "clickthrough.config.ignore.2": "Ignoreeri silte, kui 2. rida vastab tekstile: ",
     "clickthrough.config.ignore.3": "Ignoreeri silte, kui 3. rida vastab tekstile: ",
     "clickthrough.config.ignore.4": "Ignoreeri silte, kui 4. rida vastab tekstile: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
     "clickthrough.config.tt.ignore.1": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
     "clickthrough.config.tt.ignore.2": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
     "clickthrough.config.tt.ignore.3": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
-    "clickthrough.config.tt.ignore.4": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada"
+    "clickthrough.config.tt.ignore.4": "Ära läbi nende siltide klõpsa, et saaks neil olevaid kirstupoode kasutada",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
 }
