@@ -7,16 +7,13 @@ buildscript {
             name = 'CrowdinTranslate source'
             url = "https://minecraft.guntram.de/maven/"
         }
-        maven {
-            name = 'local maven'
-            url = "file:///tmp/mymavenrepo/"
-        }
     }
 }
 
 plugins {
     id 'fabric-loom' version '0.8-SNAPSHOT'
     id "com.modrinth.minotaur" version "1.1.0"
+    id "com.matthewprenger.cursegradle" version "1.4.0"
 }
 
 apply plugin: 'de.guntram.mcmod.crowdin-translate'
@@ -97,4 +94,19 @@ task publishModrinth (type: TaskModrinthUpload){
     uploadFile = remapJar // This is the java jar task
     addGameVersion("${Versions['minecraft_version']}")
     addLoader('fabric')
+}
+
+curseforge {
+    apiKey = System.getenv("CURSEFORGE_TOKEN") ?: "0"
+    project {
+        id = '405262'
+        releaseType = 'release'
+        addGameVersion("${Versions['minecraft_version']}")
+        addGameVersion("Java "+targetCompatibility)
+        addGameVersion("Fabric")
+        mainArtifact(remapJar)
+    }
+    options {
+        forgeGradleIntegration = false
+    }
 }
