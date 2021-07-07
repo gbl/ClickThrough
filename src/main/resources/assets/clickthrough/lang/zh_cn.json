@@ -1,14 +1,14 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.onlycontainers": "Only click through to containers",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+    "clickthrough.config.sneaktodye": "潜行以染色告示牌",
+    "clickthrough.config.tt.sneaktodye": "开启：直接点击会穿过告示牌，潜行点击会染色告示牌\n关闭：直接点击会染色告示牌，潜行点击不会进行染色",
+    "clickthrough.config.ignore.1": "第一行匹配时忽略此告示牌：",
+    "clickthrough.config.ignore.2": "第二行匹配时忽略此告示牌：",
+    "clickthrough.config.ignore.3": "第三行匹配时忽略此告示牌：",
+    "clickthrough.config.ignore.4": "第四行匹配时忽略此告示牌：",
+    "clickthrough.config.onlycontainers": "仅在容器上时穿过告示牌",
+    "clickthrough.config.tt.ignore.1": "不会穿过指定的告示牌，以便于使用箱子商店",
+    "clickthrough.config.tt.ignore.2": "不会穿过指定的告示牌，以便于使用箱子商店",
+    "clickthrough.config.tt.ignore.3": "不会穿过指定的告示牌，以便于使用箱子商店",
+    "clickthrough.config.tt.ignore.4": "不会穿过指定的告示牌，以便于使用箱子商店",
+    "clickthrough.config.tt.onlycontainers": "点击箱子、木桶等时穿过，但不会穿过工作台、堆肥桶等类似方块"
 }
