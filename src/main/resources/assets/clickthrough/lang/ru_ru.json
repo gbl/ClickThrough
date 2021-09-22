@@ -1,14 +1,14 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.onlycontainers": "Only click through to containers",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+    "clickthrough.config.sneaktodye": "Крадитесь, чтобы использовать краситель.",
+    "clickthrough.config.tt.sneaktodye": "ВКЛ: щелчки переходят, красят знаки незаметно\nВЫКЛ: щелчок красит знаки, подкрашивание не красит",
+    "clickthrough.config.ignore.1": "Игнорировать знаки, если строка 1 совпадает: ",
+    "clickthrough.config.ignore.2": "Игнорировать знаки, если строка 2 совпадает: ",
+    "clickthrough.config.ignore.3": "Игнорировать знаки, если строка 3 совпадает: ",
+    "clickthrough.config.ignore.4": "Игнорировать знаки, если строка 4 совпадает: ",
+    "clickthrough.config.onlycontainers": "Только клик по контейнерам",
+    "clickthrough.config.tt.ignore.1": "Не нажимайте на эти знаки в пользу магазинов сундуков",
+    "clickthrough.config.tt.ignore.2": "Не нажимайте на эти знаки в пользу магазинов сундуков",
+    "clickthrough.config.tt.ignore.3": "Не нажимайте на эти знаки в пользу магазинов сундуков",
+    "clickthrough.config.tt.ignore.4": "Не нажимайте на эти знаки в пользу магазинов сундуков",
+    "clickthrough.config.tt.onlycontainers": "Просматривайте сундуки, бочки и т. д., но не верстаки, компостеры и т. д."
 }
