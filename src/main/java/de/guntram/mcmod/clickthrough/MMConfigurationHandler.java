@@ -1,9 +1,9 @@
 package de.guntram.mcmod.clickthrough;
 
+import com.terraformersmc.modmenu.api.ConfigScreenFactory;
+import com.terraformersmc.modmenu.api.ModMenuApi;
 import de.guntram.mcmod.fabrictools.ConfigurationProvider;
 import de.guntram.mcmod.fabrictools.GuiModOptions;
-import io.github.prospector.modmenu.api.ConfigScreenFactory;
-import io.github.prospector.modmenu.api.ModMenuApi;
 
 public class MMConfigurationHandler implements ModMenuApi
 {
