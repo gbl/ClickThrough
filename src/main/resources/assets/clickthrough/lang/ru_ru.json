@@ -1,14 +1,14 @@
 {
-    "clickthrough.config.sneaktodye": "Крадитесь, чтобы использовать краситель.",
-    "clickthrough.config.tt.sneaktodye": "ВКЛ: щелчки переходят, красят знаки незаметно\nВЫКЛ: щелчок красит знаки, подкрашивание не красит",
-    "clickthrough.config.ignore.1": "Игнорировать знаки, если строка 1 совпадает: ",
-    "clickthrough.config.ignore.2": "Игнорировать знаки, если строка 2 совпадает: ",
-    "clickthrough.config.ignore.3": "Игнорировать знаки, если строка 3 совпадает: ",
-    "clickthrough.config.ignore.4": "Игнорировать знаки, если строка 4 совпадает: ",
-    "clickthrough.config.onlycontainers": "Только клик по контейнерам",
-    "clickthrough.config.tt.ignore.1": "Не нажимайте на эти знаки в пользу магазинов сундуков",
-    "clickthrough.config.tt.ignore.2": "Не нажимайте на эти знаки в пользу магазинов сундуков",
-    "clickthrough.config.tt.ignore.3": "Не нажимайте на эти знаки в пользу магазинов сундуков",
-    "clickthrough.config.tt.ignore.4": "Не нажимайте на эти знаки в пользу магазинов сундуков",
-    "clickthrough.config.tt.onlycontainers": "Просматривайте сундуки, бочки и т. д., но не верстаки, компостеры и т. д."
+    "clickthrough.config.sneaktodye": "Присесть для окраски табличек",
+    "clickthrough.config.tt.sneaktodye": "Вкл: приседание позволяет красить текст\nВыкл: краситель работает как обычно",
+    "clickthrough.config.ignore.1": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.ignore.2": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.ignore.3": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.ignore.4": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.onlycontainers": "Открывать только хранилища",
+    "clickthrough.config.tt.ignore.1": "Не нажимать на такие таблички в пользу магазинов на сундуках",
+    "clickthrough.config.tt.ignore.2": "Не нажимать на такие таблички в пользу магазинов на сундуках",
+    "clickthrough.config.tt.ignore.3": "Не нажимать на такие таблички в пользу магазинов на сундуках",
+    "clickthrough.config.tt.ignore.4": "Не нажимать на такие таблички в пользу магазинов на сундуках",
+    "clickthrough.config.tt.onlycontainers": "Нажатие срабатывает для сундуков, бочек и т.д.,\nно не для верстаков, компостеров и прочих"
 }
