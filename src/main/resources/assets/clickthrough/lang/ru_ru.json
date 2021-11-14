@@ -1,10 +1,10 @@
 {
     "clickthrough.config.sneaktodye": "Присесть для окраски табличек",
     "clickthrough.config.tt.sneaktodye": "Вкл: приседание позволяет красить текст\nВыкл: краситель работает как обычно",
-    "clickthrough.config.ignore.1": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.ignore.1": "Откл. для табличек со строкой 1: ",
     "clickthrough.config.ignore.2": "Откл. для табличек со строкой 2: ",
-    "clickthrough.config.ignore.3": "Откл. для табличек со строкой 2: ",
-    "clickthrough.config.ignore.4": "Откл. для табличек со строкой 2: ",
+    "clickthrough.config.ignore.3": "Откл. для табличек со строкой 3: ",
+    "clickthrough.config.ignore.4": "Откл. для табличек со строкой 4: ",
     "clickthrough.config.onlycontainers": "Открывать только хранилища",
     "clickthrough.config.tt.ignore.1": "Не нажимать на такие таблички в пользу магазинов на сундуках",
     "clickthrough.config.tt.ignore.2": "Не нажимать на такие таблички в пользу магазинов на сундуках",
