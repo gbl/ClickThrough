@@ -1,0 +1,14 @@
+{
+    "clickthrough.config.sneaktodye": "Schleichen um Schilder zu färben",
+    "clickthrough.config.tt.sneaktodye": "EIN: Klick klickt durch, Schleichen färbt\nAUS: Klick färbt, Schleichen tut nichts",
+    "clickthrough.config.ignore.1": "Schilder ignorieren wenn Zeile 1 entspricht: ",
+    "clickthrough.config.ignore.2": "Schilder ignorieren wenn Zeile 2 entspricht: ",
+    "clickthrough.config.ignore.3": "Schilder ignorieren wenn Zeile 3 entspricht: ",
+    "clickthrough.config.ignore.4": "Schilder ignorieren wenn Zeile 4 entspricht: ",
+    "clickthrough.config.onlycontainers": "Nur zu Behältern durchklicken",
+    "clickthrough.config.tt.ignore.1": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
+    "clickthrough.config.tt.ignore.2": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
+    "clickthrough.config.tt.ignore.3": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
+    "clickthrough.config.tt.ignore.4": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
+    "clickthrough.config.tt.onlycontainers": "Durchklicken zu Truhen, Fässern usw., aber nicht zu Werkbänken, Kompostern und ähnlichem"
+}

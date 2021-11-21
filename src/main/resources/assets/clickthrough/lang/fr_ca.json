@@ -1,0 +1,14 @@
+{
+    "clickthrough.config.sneaktodye": "S'accroupir pour colorer les panneaux",
+    "clickthrough.config.tt.sneaktodye": "Activé: Clic clique à travers, accroupi colore le panneau\nDésactivé: Clic colore le panneau, accroupi ne le colore pas",
+    "clickthrough.config.ignore.1": "Ignorer le panneau si la première ligne contient: ",
+    "clickthrough.config.ignore.2": "Ignorer le panneau si la deuxième ligne contient: ",
+    "clickthrough.config.ignore.3": "Ignorer le panneau si la troisième ligne contient: ",
+    "clickthrough.config.ignore.4": "Ignorer le panneau si la quatrième ligne contient: ",
+    "clickthrough.config.onlycontainers": "Only click through to containers",
+    "clickthrough.config.tt.ignore.1": "Ne pas cliquer à travers ces panneaux pour les shop coffres",
+    "clickthrough.config.tt.ignore.2": "Ne pas cliquer à travers ces panneaux pour les shop coffres",
+    "clickthrough.config.tt.ignore.3": "Ne pas cliquer à travers ces panneaux pour les shop coffres",
+    "clickthrough.config.tt.ignore.4": "Ne pas cliquer à travers ces panneaux pour les shop coffres",
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+}
