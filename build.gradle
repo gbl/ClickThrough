@@ -1,6 +1,6 @@
 buildscript {
     dependencies {
-        classpath 'de.guntram.mcmod:crowdin-translate:1.4+1.18-pre5'
+        classpath 'de.guntram.mcmod:crowdin-translate:1.4+1.18'
     }
     repositories {
         maven {
