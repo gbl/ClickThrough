@@ -1,5 +1,5 @@
 {
-    "clickthrough.config.sneaktodye": "潜行以染色告示牌",
+    "clickthrough.config.sneaktodye": "潜伏以染色标志",
     "clickthrough.config.tt.sneaktodye": "开启：直接点击会穿过告示牌，潜行点击会染色告示牌\n关闭：直接点击会染色告示牌，潜行点击不会进行染色",
     "clickthrough.config.ignore.1": "第一行匹配时忽略此告示牌：",
     "clickthrough.config.ignore.2": "第二行匹配时忽略此告示牌：",
