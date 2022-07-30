@@ -1,14 +1,14 @@
 {
-    "clickthrough.config.sneaktodye": "Sneak to dye signs",
-    "clickthrough.config.tt.sneaktodye": "ON: Click clicks through, sneak dyes signs\nOFF: Click dyes signs, sneak does not dye",
-    "clickthrough.config.ignore.1": "Ignore signs if row 1 matches: ",
-    "clickthrough.config.ignore.2": "Ignore signs if row 2 matches: ",
-    "clickthrough.config.ignore.3": "Ignore signs if row 3 matches: ",
-    "clickthrough.config.ignore.4": "Ignore signs if row 4 matches: ",
-    "clickthrough.config.onlycontainers": "Only click through to containers",
-    "clickthrough.config.tt.ignore.1": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.2": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.3": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.ignore.4": "Do not click through those signs for the benefit of chest shops",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+    "clickthrough.config.sneaktodye": "Крастися, щоб пофарбувати таблички",
+    "clickthrough.config.tt.sneaktodye": "ВВІМКНЕНО: Клацання натискає через, крастися - фарбує таблички\nВИМКНЕНО: Клацання фарбує таблички, крастися - не фарбує",
+    "clickthrough.config.ignore.1": "Вимкнути для табличок, що містять в 1 рядку: ",
+    "clickthrough.config.ignore.2": "Вимкнути для табличок, що містять в 2 рядку: ",
+    "clickthrough.config.ignore.3": "Вимкнути для табличок, що містять в 3 рядку: ",
+    "clickthrough.config.ignore.4": "Вимкнути для табличок, що містять в 4 рядку: ",
+    "clickthrough.config.onlycontainers": "Відкривати лише сховища",
+    "clickthrough.config.tt.ignore.1": "Не натискати через ці таблички, задля магазинів на скринях",
+    "clickthrough.config.tt.ignore.2": "Не натискати через ці таблички, задля магазинів на скринях",
+    "clickthrough.config.tt.ignore.3": "Не натискати через ці таблички, задля магазинів на скринях",
+    "clickthrough.config.tt.ignore.4": "Не натискати через ці таблички, задля магазинів на скринях",
+    "clickthrough.config.tt.onlycontainers": "\"Клацання через\" працює для скринь, діжок і т. д. але не для верстатів, компостерів та подібних"
 }
