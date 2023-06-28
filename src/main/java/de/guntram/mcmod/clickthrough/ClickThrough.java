@@ -40,7 +40,7 @@ public class ClickThrough implements ClientModInitializer
     
     public static String getSignRowText(SignBlockEntity sign, int row) {
         StringBuilder builder =  new StringBuilder();
-        return sign.getFrontText().getMessage(row, true).getString();
+        return sign.getTextOnRow(row, true).getString();
     }
 
     private void setKeyBinding() {
