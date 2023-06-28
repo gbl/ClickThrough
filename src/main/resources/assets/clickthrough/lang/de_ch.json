@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Schilder ignorieren wenn Zeile 3 entspricht: ",
     "clickthrough.config.ignore.4": "Schilder ignorieren wenn Zeile 4 entspricht: ",
     "clickthrough.config.onlycontainers": "Nur zu Behältern durchklicken",
+    "clickthrough.config.switchonattack": "Linke Maustaste ebenfalls durchschalten",
     "clickthrough.config.tt.ignore.1": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
     "clickthrough.config.tt.ignore.2": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
     "clickthrough.config.tt.ignore.3": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
     "clickthrough.config.tt.ignore.4": "Nicht durchklicken, um Truhen-Shops verwenden zu können",
-    "clickthrough.config.tt.onlycontainers": "Durchklicken zu Truhen, Fässern usw., aber nicht zu Werkbänken, Kompostern und ähnlichem"
+    "clickthrough.config.tt.onlycontainers": "Durchklicken zu Truhen, Fässern usw., aber nicht zu Werkbänken, Kompostern und ähnlichem",
+    "clickthrough.config.tt.switchonattack": "Auch die linke Maustaste hinter das Schild umleiten",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "ClickThrough ein/ausschalten",
+    "clickthrough.msg.active": "ClickThrough aktiv",
+    "clickthrough.msg.inactive": "ClickThrough inaktiv",
+    "clickthrough.config.switchonattack.never": "Nie",
+    "clickthrough.config.switchonattack.first": "Erster Klick",
+    "clickthrough.config.switchonattack.always": "Immer"
 }

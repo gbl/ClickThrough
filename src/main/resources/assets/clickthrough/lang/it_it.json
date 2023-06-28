@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Ignora i cartelli se la riga 3 contiene: ",
     "clickthrough.config.ignore.4": "Ignora i cartelli se la riga 4 contiene: ",
     "clickthrough.config.onlycontainers": "Only click through to containers",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
     "clickthrough.config.tt.ignore.2": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
     "clickthrough.config.tt.ignore.3": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
     "clickthrough.config.tt.ignore.4": "Non cliccare attraverso questi cartelli per beneficiare dei Chest Shops",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }

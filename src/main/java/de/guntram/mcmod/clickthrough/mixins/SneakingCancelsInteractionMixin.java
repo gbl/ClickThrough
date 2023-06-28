@@ -13,6 +13,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class SneakingCancelsInteractionMixin {
     @Inject(method="shouldCancelInteraction", at=@At("HEAD"), cancellable = true)
     private void noCancelWhenDyeing(CallbackInfoReturnable cir) {
+        if (!ClickThrough.isActive) {
+            return;
+        }
         if (((Object) this) instanceof ClientPlayerEntity) {
             // System.out.println("on client");
             if (ClickThrough.isDyeOnSign) {

@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Откл. для табличек со строкой 3: ",
     "clickthrough.config.ignore.4": "Откл. для табличек со строкой 4: ",
     "clickthrough.config.onlycontainers": "Открывать только хранилища",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Не нажимать на такие таблички в пользу магазинов на сундуках",
     "clickthrough.config.tt.ignore.2": "Не нажимать на такие таблички в пользу магазинов на сундуках",
     "clickthrough.config.tt.ignore.3": "Не нажимать на такие таблички в пользу магазинов на сундуках",
     "clickthrough.config.tt.ignore.4": "Не нажимать на такие таблички в пользу магазинов на сундуках",
-    "clickthrough.config.tt.onlycontainers": "Нажатие срабатывает для сундуков, бочек и т.д.,\nно не для верстаков, компостеров и прочих"
+    "clickthrough.config.tt.onlycontainers": "Нажатие срабатывает для сундуков, бочек и т.д.,\nно не для верстаков, компостеров и прочих",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }

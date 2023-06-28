@@ -15,9 +15,10 @@ public class ConfigurationHandler implements ModConfigurationHandler {
     private String configFileName;
     
     private boolean sneakToDyeSigns;
+    private int switchOnAttack;
     
-    private Pattern compiledPatterns[];
-    private String patterns[];
+    private Pattern[] compiledPatterns;
+    private String[] patterns;
     private static final String[] defaultPatterns = {
         "\\[\\D+\\]",
         "",
@@ -69,6 +70,13 @@ public class ConfigurationHandler implements ModConfigurationHandler {
             }
         }
         onlyToContainers=config.getBoolean("clickthrough.config.onlycontainers", Configuration.CATEGORY_CLIENT, false, "clickthrough.config.tt.onlycontainers");
+        switchOnAttack=config.getSelection("clickthrough.config.switchonattack", Configuration.CATEGORY_CLIENT, 0,
+                new String[]{
+                        "clickthrough.config.switchonattack.never",
+                        "clickthrough.config.switchonattack.first",
+                        "clickthrough.config.switchonattack.always",
+                },
+                "clickthrough.config.tt.switchonattack");
         
         if (config.hasChanged())
             config.save();
@@ -94,4 +102,6 @@ public class ConfigurationHandler implements ModConfigurationHandler {
     public static boolean onlyToContainers() {
         return getInstance().onlyToContainers;
     }
+
+    public static int switchOnAttack() { return getInstance().switchOnAttack; }
 }

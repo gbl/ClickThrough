@@ -11,8 +11,8 @@ buildscript {
 }
 
 plugins {
-    id 'fabric-loom' version '0.12-+'
-	id "com.modrinth.minotaur" version "2.+"
+    id 'fabric-loom' version '1.2-SNAPSHOT'
+    id "com.modrinth.minotaur" version "2.+"
     id "com.matthewprenger.cursegradle" version "1.4.0"
 }
 
@@ -20,6 +20,9 @@ apply plugin: 'de.guntram.mcmod.crowdin-translate'
 crowdintranslate.crowdinProjectName = 'clickthrough'
 
 repositories {
+    maven {
+        url = "file://tmp/mymavenrepo"
+    }
     maven {
         url = "https://maven.fabricmc.net"
     }
@@ -29,13 +32,14 @@ repositories {
     maven {
         url = "https://maven.terraformersmc.com/releases/"
     }
+    maven { url "https://maven.shedaniel.me/" }
 }
 
 sourceCompatibility = 17
 targetCompatibility = 17
 
 ext.Versions = new Properties()
-Versions.load(file("Versionfiles/mcversion-1.19.3.properties").newReader())
+Versions.load(file("Versionfiles/mcversion-1.20.properties").newReader())
 
 archivesBaseName = "clickthrough"
 ext.projectVersion = "0.4"
@@ -66,19 +70,15 @@ dependencies {
     include "de.guntram.mcmod:crowdin-translate:${Versions['crowdintranslate_version']}"
 }
 
-// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-// if it is present.
-// If you remove this task, sources will not be generated.
-task sourcesJar(type: Jar, dependsOn: classes) {
-    classifier = 'sources'
-    from sourceSets.main.allSource
+java {
+    withSourcesJar()
 }
 
 jar {
     from "LICENSE"
 }
 
-build {
+processResources {
         dependsOn downloadTranslations
 }
 

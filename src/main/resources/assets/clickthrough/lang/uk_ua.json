@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Вимкнути для табличок, що містять в 3 рядку: ",
     "clickthrough.config.ignore.4": "Вимкнути для табличок, що містять в 4 рядку: ",
     "clickthrough.config.onlycontainers": "Відкривати лише сховища",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Не натискати через ці таблички, задля магазинів на скринях",
     "clickthrough.config.tt.ignore.2": "Не натискати через ці таблички, задля магазинів на скринях",
     "clickthrough.config.tt.ignore.3": "Не натискати через ці таблички, задля магазинів на скринях",
     "clickthrough.config.tt.ignore.4": "Не натискати через ці таблички, задля магазинів на скринях",
-    "clickthrough.config.tt.onlycontainers": "\"Клацання через\" працює для скринь, діжок і т. д. але не для верстатів, компостерів та подібних"
+    "clickthrough.config.tt.onlycontainers": "\"Клацання через\" працює для скринь, діжок і т. д. але не для верстатів, компостерів та подібних",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }

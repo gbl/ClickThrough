@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Ignorar tabuleta se linha 3 corresponder a: ",
     "clickthrough.config.ignore.4": "Ignorar tabuleta se linha 4 corresponder a: ",
     "clickthrough.config.onlycontainers": "Só atravessa para contentores",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Não atravessar tabuletas para facilitar lojas de baús",
     "clickthrough.config.tt.ignore.2": "Não atravessar tabuletas para facilitar lojas de baús",
     "clickthrough.config.tt.ignore.3": "Não atravessar tabuletas para facilitar lojas de baús",
     "clickthrough.config.tt.ignore.4": "Não atravessar tabuletas para facilitar lojas de baús",
-    "clickthrough.config.tt.onlycontainers": "Atravessar para abrir baús, barris etc., mas não mesas de trabalho, compostores e similares"
+    "clickthrough.config.tt.onlycontainers": "Atravessar para abrir baús, barris etc., mas não mesas de trabalho, compostores e similares",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }

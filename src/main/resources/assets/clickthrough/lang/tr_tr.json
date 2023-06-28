@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Tabelanın 3. satırı şunla eşleşiyorsa atla: ",
     "clickthrough.config.ignore.4": "Tabelanın 4. satırı şunla eşleşiyorsa atla: ",
     "clickthrough.config.onlycontainers": "Sadece muhafaza edilebilen şeylere tıkla",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Sandık mağazaları için şu tabelaların arkasına tıklama",
     "clickthrough.config.tt.ignore.2": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
     "clickthrough.config.tt.ignore.3": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
     "clickthrough.config.tt.ignore.4": "Sandık mağazalarının faydası için şu tabelaların arkasına tıklama",
-    "clickthrough.config.tt.onlycontainers": "Sandık, fıçı vb'lerine tıkla ama çalışma masaları, gübreleyici ve benzerlerini değil."
+    "clickthrough.config.tt.onlycontainers": "Sandık, fıçı vb'lerine tıkla ama çalışma masaları, gübreleyici ve benzerlerini değil.",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }

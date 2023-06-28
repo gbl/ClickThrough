@@ -6,9 +6,18 @@
     "clickthrough.config.ignore.3": "Ignorera tecken om rad 3 matchar:",
     "clickthrough.config.ignore.4": "Ignorera tecken om rad 4 matchar: ",
     "clickthrough.config.onlycontainers": "Only click through to containers",
+    "clickthrough.config.switchonattack": "Reroute left button as well",
     "clickthrough.config.tt.ignore.1": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
     "clickthrough.config.tt.ignore.2": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
     "clickthrough.config.tt.ignore.3": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
     "clickthrough.config.tt.ignore.4": "Klicka inte igenom dessa skyltar till förmån för bröstbutiker",
-    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar"
+    "clickthrough.config.tt.onlycontainers": "Click through to chests, barrels etc., but not crafting tables, composters and similar",
+    "clickthrough.config.tt.switchonattack": "Also redirect left button clicks to what's behind the sign",
+    "key.categories.clickthrough": "ClickThrough",
+    "key.clickthrough.toggle": "Turn ClickThrough on/off",
+    "clickthrough.msg.active": "ClickThrough active",
+    "clickthrough.msg.inactive": "ClickThrough inactive",
+    "clickthrough.config.switchonattack.never": "Never",
+    "clickthrough.config.switchonattack.first": "First click",
+    "clickthrough.config.switchonattack.always": "Always"
 }
